@@ -1,12 +1,12 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: myappdeployment12
+  name: niqdeployment
 spec:
   selector:
     matchLabels:
       app: myapp
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       labels:
